@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-02T00:58:33 IST" name="TestNGHometask" finished-at="2024-07-02T00:58:33 IST" duration-ms="281">
+    <groups>
+      <group name="negative">
+        <method signature="CalculatorTests.addition_NegativeNumbers1()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" name="addition_NegativeNumbers1" class="Tests.CalculatorTests"/>
+        <method signature="CalculatorTests.division_FindingRemainder()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" name="division_FindingRemainder" class="Tests.CalculatorTests"/>
+        <method signature="CalculatorTests.multiplication_NegativeNumbers1()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" name="multiplication_NegativeNumbers1" class="Tests.CalculatorTests"/>
+        <method signature="CalculatorTests.multiplication_postiveNumbers()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" name="multiplication_postiveNumbers" class="Tests.CalculatorTests"/>
+        <method signature="CalculatorTests.testDivideByZero()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" name="testDivideByZero" class="Tests.CalculatorTests"/>
+        <method signature="CalculatorTests.testDivision_ByZero()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" name="testDivision_ByZero" class="Tests.CalculatorTests"/>
+      </group> <!-- negative -->
+      <group name="positive">
+        <method signature="CalculatorTests.addition(int,int,int)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" name="addition" class="Tests.CalculatorTests"/>
+        <method signature="CalculatorTests.addition_NegativeNumbers()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" name="addition_NegativeNumbers" class="Tests.CalculatorTests"/>
+        <method signature="CalculatorTests.addition_PositiveAndNegativeNumbers1()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" name="addition_PositiveAndNegativeNumbers1" class="Tests.CalculatorTests"/>
+        <method signature="CalculatorTests.addition_PositiveNumbers()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" name="addition_PositiveNumbers" class="Tests.CalculatorTests"/>
+        <method signature="CalculatorTests.multiplication_NegativeNumbers()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" name="multiplication_NegativeNumbers" class="Tests.CalculatorTests"/>
+      </group> <!-- positive -->
+    </groups>
+    <test started-at="2024-07-02T00:58:33 IST" name="HomeTaskTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="281">
+      <class name="Tests.CalculatorTests">
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.addition(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.addition_NegativeNumbers1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.addition_NegativeNumbers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="addition_NegativeNumbers()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="addition_NegativeNumbers" finished-at="2024-07-02T00:58:33 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addition_NegativeNumbers -->
+        <test-method signature="addition(int,int,int)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="addition" data-provider="numbers" finished-at="2024-07-02T00:58:33 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addition -->
+        <test-method signature="addition_NegativeNumbers1()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="addition_NegativeNumbers1" finished-at="2024-07-02T00:58:33 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addition_NegativeNumbers1 -->
+        <test-method signature="addition(int,int,int)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="addition" data-provider="numbers" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addition -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.addition(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.addition_PositiveAndNegativeNumbers1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.addition(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="addition(int,int,int)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="addition" data-provider="numbers" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addition -->
+        <test-method signature="addition_PositiveAndNegativeNumbers1()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="addition_PositiveAndNegativeNumbers1" finished-at="2024-07-02T00:58:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addition_PositiveAndNegativeNumbers1 -->
+        <test-method signature="addition_PositiveNumbers()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="addition_PositiveNumbers" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addition_PositiveNumbers -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.addition_PositiveNumbers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.division_FindingRemainder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="division_FindingRemainder()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="division_FindingRemainder" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- division_FindingRemainder -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.multiplication_NegativeNumbers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="multiplication_NegativeNumbers()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="multiplication_NegativeNumbers" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplication_NegativeNumbers -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.multiplication_NegativeNumbers1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="multiplication_NegativeNumbers1()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="multiplication_NegativeNumbers1" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplication_NegativeNumbers1 -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.multiplication_postiveNumbers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="multiplication_postiveNumbers()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="multiplication_postiveNumbers" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplication_postiveNumbers -->
+        <test-method signature="testDivideByZero()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="testDivideByZero" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="FAIL">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Expected exception of type class java.lang.ArithmeticException but got java.lang.NumberFormatException: Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Expected exception of type class java.lang.ArithmeticException but got java.lang.NumberFormatException: Attempt to divide by zero
+at org.testng.internal.invokers.ExpectedExceptionsHolder.wrongException(ExpectedExceptionsHolder.java:67)
+at org.testng.internal.invokers.TestInvoker.considerExceptionsInternal(TestInvoker.java:885)
+at org.testng.internal.invokers.TestInvoker.considerExceptions(TestInvoker.java:860)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:741)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NumberFormatException: Attempt to divide by zero
+at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+at Tests.CalculatorTests.testDivideByZero(CalculatorTests.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+... 12 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideByZero -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.testDivideByZero()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="testDivision_ByZero()[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="testDivision_ByZero" finished-at="2024-07-02T00:58:33 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+at Tests.CalculatorTests.testDivision_ByZero(CalculatorTests.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision_ByZero -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Tests.CalculatorTests@1e0b4072]" started-at="2024-07-02T00:58:33 IST" name="beforeEachTest" finished-at="2024-07-02T00:58:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.CalculatorTests.testDivision_ByZero()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+      </class> <!-- Tests.CalculatorTests -->
+    </test> <!-- HomeTaskTest -->
+  </suite> <!-- TestNGHometask -->
+</testng-results>
