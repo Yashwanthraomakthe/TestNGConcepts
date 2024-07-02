@@ -1,21 +1,18 @@
 package Tests;
 
-import java.io.IOException;
-import java.lang.reflect.Method;
-
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
 import com.epam.tat.module4.Calculator;
 
 public class CalculatorTests {
 	public static Calculator calculator;
 
 	@BeforeMethod(alwaysRun = true)
-	public void beforeEachTest(Method method) {
+	public void beforeEachTest() {
 		calculator = new Calculator();
 		String threadName = Thread.currentThread().getName();
 		System.out.println("Thread Name: " + threadName);
