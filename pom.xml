@@ -1,6 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<properties>
+		<calculator-systemPath>
+			C:\Users\yashwanth_makthe\Desktop\YashwanthProjects\TestNgHomeTask/lib/calculator-1.0.jar</calculator-systemPath>
+	</properties>
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>TestNgHomeTask</groupId>
 	<artifactId>TestNgHomeTask</artifactId>
@@ -27,15 +32,7 @@
 			<version>2.0.7</version>
 		</dependency>
 
-
-		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>calculator</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>C:\Users\yashwanth_makthe\Desktop\YashwanthProjects\TestNgHomeTask/lib/calculator-1.0.jar</systemPath>
-		</dependency>
-
+	<!-- -->
 
 	</dependencies>
 
@@ -51,6 +48,8 @@
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
+			
+			
 		</plugins>
 	</build>
 </project>
